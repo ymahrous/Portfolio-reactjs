@@ -5,7 +5,7 @@ import ME from "../../assets/me-about.jpg";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
-  return (
+  return(
     <section id="about">
       <h5 className="about__h5">Get to Know</h5>
       <h2 className="about__h2">About Me</h2>
@@ -38,7 +38,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default About;

@@ -5,7 +5,7 @@ import ME from "../../assets/me.png";
 import { RiScrollToBottomLine } from "react-icons/ri";
 
 const Header = () => {
-  return (
+  return(
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
@@ -21,7 +21,7 @@ const Header = () => {
         </a>
       </div>
     </header>
-  )
-}
+  );
+};
 
 export default Header;
