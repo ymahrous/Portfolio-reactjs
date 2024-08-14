@@ -18,7 +18,7 @@ import fourthJPG from "../../assets/portfolio4.jpg";
 //         <a href={demo} target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
 //       </div>
 //     </article>
-//   });
+//   })
 // }
 
 const Portfolio = () => {
