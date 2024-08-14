@@ -37,7 +37,6 @@ const Portfolio = () => {
             <a href="https://dribble.com" target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
           </div>
         </article>
-
         <article className="portfolio__item">
           <div className="portfolio__img">
             <img src={secondJPG} alt="live demo" />
@@ -48,7 +47,6 @@ const Portfolio = () => {
             <a href="https://dribble.com" target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
           </div>
         </article>
-
         <article className="portfolio__item">
           <div className="portfolio__img">
             <img src={thirdJPG} alt="live demo" />
@@ -59,7 +57,6 @@ const Portfolio = () => {
             <a href="https://dribble.com" target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
           </div>
         </article>
-
         <article className="portfolio__item">
           <div className="portfolio__img">
             <img src={fourthJPG} alt="live demo" />
@@ -70,7 +67,6 @@ const Portfolio = () => {
             <a href="https://dribble.com" target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
           </div>
         </article>
-
         <article className="portfolio__item">
           <div className="portfolio__img">
             <img src={fifthJPG} alt="live demo" />
@@ -81,7 +77,6 @@ const Portfolio = () => {
             <a href="https://dribble.com" target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
           </div>
         </article>
-
         <article className="portfolio__item">
           <div className="portfolio__img">
             <img src={lastJPG} alt="live demo" />
