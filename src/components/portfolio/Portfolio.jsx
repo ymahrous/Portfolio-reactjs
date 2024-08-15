@@ -1,16 +1,16 @@
 import "./Portfolio.css";
 import lastJPG from "../../assets/portfolio6.jpg";
-import firstJPG from "../../assets/portfolio1.jpg";
-import thirdJPG from "../../assets/portfolio3.jpg";
 import fifthJPG from "../../assets/portfolio5.png";
-import secondJPG from "../../assets/portfolio2.jpg";
 import fourthJPG from "../../assets/portfolio4.jpg";
+// import thirdJPG from "../../assets/portfolio3.jpg";
+// import firstJPG from "../../assets/portfolio1.jpg";
+// import secondJPG from "../../assets/portfolio2.jpg";
 
 const Portfolio = () => {
   const data = [
-    {img: firstJPG, title: 'Finance Tracker using AI', github: 'https://github.com', demo: 'https://dribble.com'},
-    {img: secondJPG, title: 'Smart Automation Dashboard', github: 'https://github.com', demo: 'https://dribble.com'},
-    {img: thirdJPG, title: 'Fitness App', github: 'https://github.com', demo: 'https://dribble.com'},
+    // {img: firstJPG, title: 'Finance Tracker using AI', github: 'https://github.com', demo: 'https://dribble.com'},
+    // {img: secondJPG, title: 'Smart Automation Dashboard', github: 'https://github.com', demo: 'https://dribble.com'},
+    // {img: thirdJPG, title: 'Fitness App', github: 'https://github.com', demo: 'https://dribble.com'},
     {img: fourthJPG, title: 'CollabCode', github: 'https://github.com', demo: 'https://dribble.com'},
     {img: fifthJPG, title: 'HomeCalc', github: 'https://github.com',demo: 'https://dribble.com'},
     {img: lastJPG, title: 'Recipe SaaS', github: 'https://github.com', demo: 'https://dribble.com'},
