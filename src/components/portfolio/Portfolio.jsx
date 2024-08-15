@@ -6,88 +6,34 @@ import fifthJPG from "../../assets/portfolio5.png";
 import secondJPG from "../../assets/portfolio2.jpg";
 import fourthJPG from "../../assets/portfolio4.jpg";
 
-// {
-//   data.map(({ id, img, title, github, demo }) => {
-//     <article className="portfolio__item">
-//       <div className="portfolio__img">
-//         <img src={img} alt={id} />
-//       </div>
-//       <h3>{title}</h3>
-//       <div className="portfolio__cta">
-//         <a href={github} className="btn">GitHub</a>
-//         <a href={demo} target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
-//       </div>
-//     </article>
-//   })
-// }
-
 const Portfolio = () => {
+  const data = [
+    {img: firstJPG, title: 'Finance Tracker using AI', github: 'https://github.com', demo: 'https://dribble.com'},
+    {img: secondJPG, title: 'Smart Automation Dashboard', github: 'https://github.com', demo: 'https://dribble.com'},
+    {img: thirdJPG, title: 'Fitness App', github: 'https://github.com', demo: 'https://dribble.com'},
+    {img: fourthJPG, title: 'CollabCode', github: 'https://github.com', demo: 'https://dribble.com'},
+    {img: fifthJPG, title: 'HomeCalc', github: 'https://github.com',demo: 'https://dribble.com'},
+    {img: lastJPG, title: 'Recipe SaaS', github: 'https://github.com', demo: 'https://dribble.com'},
+  ];
+
   return (
     <section id="portfolio">
       <h5 className="portfolio__h5">Recent Work</h5>
       <h2 className="portfolio__h2">Portfolio</h2>
-      <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__img">
-            <img src={firstJPG} alt="live demo" />
-          </div>
-          <h3>Finance Tracker using AI</h3>
-          <div className="portfolio__cta">
-            <a href="https://github.com" className="btn">GitHub</a>
-            <a href="https://dribble.com" target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__img">
-            <img src={secondJPG} alt="live demo" />
-          </div>
-          <h3>Smart Automation Dashboard</h3>
-          <div className="portfolio__cta">
-            <a href="https://github.com" className="btn">GitHub</a>
-            <a href="https://dribble.com" target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__img">
-            <img src={thirdJPG} alt="live demo" />
-          </div>
-          <h3>Fitness App</h3>
-          <div className="portfolio__cta">
-            <a href="https://github.com" className="btn">GitHub</a>
-            <a href="https://dribble.com" target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__img">
-            <img src={fourthJPG} alt="live demo" />
-          </div>
-          <h3>CollabCode</h3>
-          <div className="portfolio__cta">
-            <a href="https://github.com" className="btn">GitHub</a>
-            <a href="https://dribble.com" target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__img">
-            <img src={fifthJPG} alt="live demo" />
-          </div>
-          <h3>HomeCalc</h3>
-          <div className="portfolio__cta">
-            <a href="https://github.com" className="btn">GitHub</a>
-            <a href="https://dribble.com" target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__img">
-            <img src={lastJPG} alt="live demo" />
-          </div>
-          <h3>Recipe SaaS</h3>
-          <div className="portfolio__cta">
-            <a href="https://github.com" className="btn">GitHub</a>
-            <a href="https://dribble.com" target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
-          </div>
-        </article>
-      </div>
+      <div className="container portfolio__container">{
+        data.map(({ img, title, github, demo }, index) => (
+          <article className="portfolio__item">
+            <div className="portfolio__img">
+              <img src={img} alt={index} />
+            </div>
+            <h3>{title}</h3>
+            <div className="portfolio__cta">
+              <a href={github} className="btn">GitHub</a>
+              <a href={demo} target="_blank" rel="noreferrer" className="btn btn-primary">Live Demo</a>
+            </div>
+          </article>
+        ))
+      }</div>
     </section>
   )
 }
