@@ -33,7 +33,7 @@ const About = () => {
               <small>70+ Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eveniet incidunt quas hic vel repellendus quae possimus pariatur. Temporibus nihil dolor optio sunt nobis, expedita labore quam! Maxime, accusamus autem!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eveniet incidunt quas hic vel repellendus quae possimus pariatur. Temporibus nihil dolor optio sunt nobis, expedita labore quam.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
